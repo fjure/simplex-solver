@@ -7,7 +7,7 @@ Simplex Solver written in Python using the Dual Simplex Method
 Download the binary for your operating system (currently available: Windows and Mac OS)
 Extract the zip folder and either double click the .EXE file on Windows or run the `./simplex` file from the Terminal
 
-You could also download the src folder and run python main.py (only working on Python >= 3.10 since I have to rename the parser module). <br>
+You could also download the [repository](https://github.com/fjure/simplex-solver/archive/refs/heads/main.zip) and run python main.py (only working on Python >= 3.10 since I have to rename the parser module :sweat_smile:). <br>
 Ideally you want to install the src to a virtual environment. I recommend virtualenv.
 
 ## Installing Virtualenv (ONLY REQUIRED IF BINARY IS NOT WORKING)
