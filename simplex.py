@@ -92,7 +92,6 @@ def check_for_finish(matrix):
 def print_solution(matrix):
     solutions = []
     matrix_without_slack_variables = matrix[:, 0:num_cols-1]
-    print(f'{matrix_without_slack_variables}')
     last_column = matrix[:, -1]
     for i in range(0, matrix_without_slack_variables.shape[1]):
         current_column = matrix_without_slack_variables[:, i]

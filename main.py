@@ -54,8 +54,9 @@ def main():
         mode = parsed_benchmark[1]
         solutions = start(case, mode)
 
-        solution_file = open(f'./solutions/solution_{file}', "w")
-        sys.stdout = solution_file
+        if(save_mode):
+            solution_file = open(f'./solutions/solution_{file}', "w")
+            sys.stdout = solution_file
 
         print(f'{solutions[0]}')
         print(f'Iterationen benötigt: {solutions[1]}')
